@@ -27,7 +27,7 @@ Head of Cleaned Data
 Scatter plot of Total Fat (g) vs Number of  Calories. We can see a positive correlation between the 2 variables.
 
 <iframe
-  src="plots/plot.html"
+  src="plots/plot2.html"
   width="800"
   height="600"
   frameborder="0"

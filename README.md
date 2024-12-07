@@ -42,7 +42,7 @@ After Imputing:
   height="600"
   frameborder="0"
 ></iframe>
-Scatter plot of Total Fat (g) vs Number of  Calories. We can see a positive correlation between the 2 variables.
+Scatter plot of Total Fat (g) vs Number of  Calories. We can see a positive correlation between the two variables.
 
 <iframe
   src="plots/plot4.html"

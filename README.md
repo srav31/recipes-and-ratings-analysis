@@ -9,6 +9,8 @@ Welcome to my recipes and ratings analysis. This homework analyzes a **Recipe Da
 The dataset contained a nutrition column, which looked like a list of numbers. However, these values were actually strings that looked like integers. First, I decided to change the values in the lists to integers, so I could work with them. Then I split the nutrition column into separate columns, corresponding to the categorical feature that each value represented. That is how I ended up gathering the total fat and sugar colunmns for my analysis. Doing this cleaned up my data and made it easier to process each value. Then, I imputed missing values in the num calories column with the mean of the column. I chsoe the mean because once I manually looked through the data, the mean seemed to be more accurate to the values already presented.
 
 Head of Cleaned Data: 
+
+
 |   total fat |   sugar |   num calories |
 |------------:|--------:|---------------:|
 |          10 |      50 |          138.4 |
@@ -17,9 +19,10 @@ Head of Cleaned Data:
 |          63 |     326 |          878.3 |
 |          30 |      12 |          267   |
 
+
 Before Imputing:
 <iframe
-  src="plots/plot3.html"
+  src="plots/plot1.html"
   width="800"    
   height="600"   
   frameborder="0"
@@ -27,14 +30,14 @@ Before Imputing:
 
 After Imputing:
 <iframe
-  src="plots/plot4.html"
+  src="plots/plot2.html"
   width="800"    
   height="600"   
   frameborder="0"
 ></iframe>
 
 <iframe
-  src="plots/plot1.html"
+  src="plots/plot3.html"
   width="800"
   height="600"
   frameborder="0"
@@ -42,7 +45,7 @@ After Imputing:
 Scatter plot of Total Fat (g) vs Number of  Calories. We can see a positive correlation between the 2 variables.
 
 <iframe
-  src="plots/plot2.html"
+  src="plots/plot4.html"
   width="800"
   height="600"
   frameborder="0"

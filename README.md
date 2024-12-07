@@ -24,8 +24,15 @@ Head of Cleaned Data
   height="600"
   frameborder="0"
 ></iframe>
+Scatter plot of Total Fat (g) vs Number of  Calories. We can see a positive correlation between the 2 variables.
 
-Scatter plot of Total Fat (g) vs Num Calories. We can see a positive correlation between the 2 variables.
+<iframe
+  src="plots/plot.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+Box plot of Total Fat Range (g) vs Number of Calories colored by Cooking Time Range. We can see that as the total fat range increases, so does the number of calories. It also seems that recipes that took 120+ minutes to prepare have a higher number of calories.
 
  **Add head of dataset, univariate plot, multivariate plot, merged table, data before and after imputing**
 

@@ -11,3 +11,6 @@ The dataset contained a nutrition column, which looked like a list of numbers. H
 # Framing a Prediction Problem 
 **Prediction Problem - Given the total grams of fat, total grams of sugar, and preparation time in minutes of a recipe, predict the number of calories in that recipe.**
 This is a regression problem, since we are predicting a numeric output. The response variable is number of calories, and I chose this metric because from the data given, it is possible to make accurate predictions. I am using MSE (mean squared error) and R-squared (coefficient of determination) for my metrics. Since this is a regression problem, it is difficult to use metrics such as AUROC, and MSE and R-squared are viable metrics for regression problems.
+
+# Baseline Model
+For the baseline model, I started out by using only total grams of fat and number of minutes to predict number of calories. Both features are quantitative. Using them, I trained a simple Linear Regression model and outputted the models MSE and R-squared. I found that the MSE was 73359.16 and the R-squared value was 0.7908. While the MSE is quite high, the R-squared value shows a somewhat strong relationship between total grams of fat and sugar and the number of calories. I would not say this model is necessarily good or bad. I would say it is decent, but improvement can definitely be made.

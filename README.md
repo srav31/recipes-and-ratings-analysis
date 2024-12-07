@@ -52,8 +52,6 @@ Scatter plot of Total Fat (g) vs Number of  Calories. We can see a positive corr
 ></iframe>
 Box plot of Total Fat Range (g) vs Number of Calories colored by Cooking Time Range. We can see that as the total fat range increases, so does the number of calories. It also seems that recipes that took 120+ minutes to prepare have a higher number of calories.
 
- **Add head of dataset, univariate plot, multivariate plot, merged table, data before and after imputing**
-
 # Framing a Prediction Problem 
 **Prediction Problem - Given the total grams of fat, total grams of sugar, and preparation time in minutes of a recipe, predict the number of calories in that recipe.**
 This is a regression problem, since we are predicting a numeric output. The response variable is number of calories, and I chose this metric because from the data given, it is possible to make accurate predictions. I am using MSE (mean squared error) and R-squared (coefficient of determination) for my metrics. Since this is a regression problem, it is difficult to use metrics such as AUROC, and MSE and R-squared are viable metrics for regression problems.

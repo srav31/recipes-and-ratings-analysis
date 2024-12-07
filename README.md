@@ -9,7 +9,7 @@ Welcome to my recipes and ratings analysis. This homework analyzes a **Recipe Da
 The dataset contained a nutrition column, which looked like a list of numbers. However, these values were actually strings that looked like integers. First, I decided to change the values in the lists to integers, so I could work with them. Then I split the nutrition column into separate columns, corresponding to the categorical feature that each value represented. That is how I ended up gathering the total fat and sugar colunmns for my analysis. Doing this cleaned up my data and made it easier to process each value. Then, I imputed missing values in the num calories column with the mean of the column. I chsoe the mean because once I manually looked through the data, the mean seemed to be more accurate to the values already presented.
 
 <iframe
-  src="/Users/sravanidash/Desktop/umich/24_25/fall/eecs398/finishedHW/portfolioHW/recipes-and-ratings-analysis/plots/recipes_head.html"
+  src="plots/recipes_head.html"
   width="800"
   height="600"
   frameborder="0"
